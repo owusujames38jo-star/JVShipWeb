@@ -1,0 +1,552 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(59, 61, 63);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    min-width: 850px;
+    background-color: rgb(32, 36, 43);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px 15px 0px 0px;
+    
+        
+}
+
+.logo-cont {
+    width: 300px;
+    margin-left: 50px;
+    align-self: flex-start;
+    margin-top: 30px;
+    display: flex;
+}
+
+.logo-img {
+    width: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
+.search-cont {
+    width: 600px;
+    display: flex;
+    background-color:rgb(71, 74, 77);
+    align-items: center;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    
+}
+
+.search-bar {
+    flex: 1;
+    height: 50px;
+    background-color:rgb(71, 74, 77);
+    border: none;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+.search-bar::placeholder {
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+    
+
+}
+
+.search-img {
+    margin-bottom: 3px;
+    object-fit: cover;
+    border: none;
+
+
+}
+
+.search-btn {
+    background-color:rgb(71, 74, 77);
+    border: none;
+
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+
+.login-cont {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 30px;
+    
+
+}
+
+.login-btn {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(32, 36, 43);
+    border: none;
+    font-size: 26px;
+    color: rgb(77, 180, 196);
+    display: flex;
+       
+}
+
+.login-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.profile-btn {
+   background-color: rgb(32, 36, 43); 
+   height: 42px;
+   border: none;
+   margin-top: -10px;
+   
+}
+
+.profile-btn:hover {
+    cursor: pointer;
+}
+
+.profile-img {
+    height: 50px;
+
+}
+
+
+.nav-cont {
+    background-color: rgb(32, 36, 43);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 3px;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;
+    font-size: 25px;
+    min-width: 850px;
+    
+}
+
+.nav-cont a {
+    color: rgb(200, 196, 196);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-cont a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.main-page {
+    background-image: url(/imgs/background.png);
+    height: 500px;
+    background-size: cover;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.explore-btn {
+    background-color: rgb(15, 204, 230);
+    width: 270px;
+    height: 60px;
+    color: rgb(237, 237, 237);
+    font-size: 25px;
+    border-radius: 12px;
+    border: none;
+    position: absolute;
+    bottom: 209px;
+    left: 238px;
+
+}
+
+.explore-btn:hover {
+    cursor: pointer;
+}
+
+.category-cont {
+    background-color:rgb(26, 27, 30);
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.car-cont {
+    display: flex;
+    background-color: transparent;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    margin-left: 25px;
+    
+}
+
+.car-img {
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+
+}
+
+
+.view-btn {
+    z-index: 1;
+    background-color: transparent;
+    color: rgb(227, 225, 222);
+    align-self: self-end;
+    margin-left: 30px;
+    border: none;
+    font-size: 18px;
+
+}
+
+.view-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.smartliving-cont {
+    display: flex;
+    background-color: transparent;
+    width: 480px;
+    height: 300px; 
+    position: relative;
+
+}
+
+.smartliving-img {
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+}
+
+.industrial-cont {
+    display: flex;
+    background-color: transparent;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    margin-right: 25px;
+}
+
+.industrial-img {
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+}
+
+.featured-cont {
+    background-color: rgb(33, 37, 40);
+    height: 40vh;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+}
+
+.featured-btn {
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.featured {
+    background-color: rgb(33, 37, 40);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+    
+    
+}
+
+.featured-1 {
+    display: flex;
+    background-color: blue;
+    height: 230px;
+    width: 350px;
+    border-radius: 15px;
+    
+}
+
+/* .featured-1-img {
+
+} */
+
+.featured-2 {
+    display: flex;
+    background-color: green;
+    height: 230px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.featured-2-img {
+    height: auto;
+    width: 100%;
+
+}
+
+.featured-3 {
+    display: flex;
+    background-color: white;
+    height: 230px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.featured-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 51, 57);
+    height: 230px;
+    width: 350px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.featured-4 button:hover {
+    cursor: pointer;
+}
+
+.quantum-btn {
+    background-color: rgb(74, 80, 82);
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+}
+
+.initiate-btn {
+    background-color: rgb(24, 203, 222);
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.footer-stat {
+    background-image: url(/imgs/footer.png);
+    background-color: red;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    gap: 150px;
+    
+
+}
+
+
+.footer-r1 h1{
+    font-size: 26px;
+    justify-self: center;
+}
+
+.footer-r1 ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer-r1 {
+    align-self: center;
+    
+}
+
+.footer-r2 h1{
+    font-size: 26px;
+    justify-self: center;
+}
+
+.footer-r2 ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-r2 {
+    align-self: center;
+    
+}
+
+.footer-r3 h1{
+    font-size: 26px;
+    justify-self: center;
+}
+
+.footer-r3 ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-r3 {
+    align-self: center;
+    
+}
+
+.footer-r4 h1{
+    font-size: 26px;
+    justify-self: center;
+}
+
+.footer-r4 ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-r4 {
+    align-self: center;
+    
+}
+
+.footer-r5 h1{
+    font-size: 26px;
+    justify-self: center;
+}
+
+.footer-r5 ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-r5 {
+    align-self: center;
+    
+}
+
+.footer-bottom {
+    background-color: rgb(33, 37, 40);
+    height: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 1010px;
+       
+}
+
+.footer-left{
+    margin-top: 20px;
+
+}
+
+.footer-left h1{
+    font-size: 23px;
+}
+
+.footer-left p{
+    font-size: 15px;
+    gap: 1px;
+}
+
+.footer-right {
+    margin-top: 40px;
+       
+}
+
+.social-icon {
+    margin-bottom: 40px;
+    margin-left: 90px;
+
+
+}
+
+.social-btn {
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.social-btn:hover {
+    cursor: pointer;
+}
+
+.social-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.suscribe-cont {
+    font-size: 10px;
+    width: 250px;
+    
+}
+
+.footer-input {
+    background-color:rgb(71, 74, 77);
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.suscribe-btn {
+    background-color: rgb(24, 203, 222);
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.suscribe-btn:hover {
+    cursor: pointer;
+}
+
+.footer-end {
+    background-color: rgb(33, 37, 40);
+    height: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 3px;
+    display: flex;
+}
