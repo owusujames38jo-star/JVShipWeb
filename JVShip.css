@@ -183,14 +183,16 @@ body {
 
 
 .main-page {
-    background-image: url(imgs/background.png);
+    background-image: url(/imgs/background.png);
     width: 100%;
-    min-height: 65vh
-    aspect-ratio: 1024/1024;
+    min-height: 65vh;
+    aspect-ratio: 1/1;
     background-size: cover;
     background-position: center;
     justify-self: center;
     background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
     
 }
 
@@ -202,14 +204,10 @@ body {
     font-size: 9px;
     border-radius: 12px;
     border: none;
-    /* position: absolute; */
-    margin-top: 200px;
-    margin-left: 122px;
+    position: absolute;
+    left: 38%;
+    top: 55%;
     
-    
-    
-    
-
 }
 
 .explore-btn:hover {
