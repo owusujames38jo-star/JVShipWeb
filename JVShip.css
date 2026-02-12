@@ -216,7 +216,7 @@ body {
 }
 
 .category-cont {
-    background-image: url(/imgs/footer.png);
+    background-image: url(imgs/footer.png);
     background-color: aliceblue;
     display: flex;
     justify-content: center;
