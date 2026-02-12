@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="(min-width: 320px)" href="mediaqury.css"> -->
     <title>JVShip</title>
     <link rel="stylesheet" href="JVShip.css">
 </head>
@@ -25,22 +26,23 @@
     </header>
 
     <nav class="nav-cont">
-        <li>
-            <a href="browse.html">Browse Category</a>
-        </li>
+        <ul>
+            <li>
+                <a href="browse.html">Category</a>
+            </li>
 
-        <li>
-            <a href="newarrivals.html">New Arrivals</a>
-        </li>
+             <li>
+                <a href="newarrivals.html">New Arrivals</a>
+            </li>
 
-        <li>
-            <a href="surport.html">Surport</a>
-        </li>
+            <li>
+                <a href="surport.html">Surport</a>
+            </li>
 
-        <li>
-            <a href="about.html">About Us</a>
-        </li>
-    
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+        </ul>
     </nav>
 
     <main class="main-page">
@@ -49,44 +51,52 @@
     </main>
 
     <section class="category-cont">
-        <div class="car-cont">
+  
+        <div class="img-cont">
             <img class="car-img" src="/imgs/cars.png" alt="image of a car">
             <button class="view-btn">View All</button>
+
         </div>
 
-        <div class="smartliving-cont">
+        <div class="img-cont">
             <img class="smartliving-img" src="/imgs/smartliving.png" alt="smart living appliances">
             <button class="view-btn">View All</button>
+
         </div>
 
-        <div class="industrial-cont">
+         
+
+        <div class="img-cont">
             <img class="industrial-img" src="/imgs/industrial.png" alt="industrial appliances">
             <button class="view-btn">View All</button>
+
         </div>
+           
     </section>
 
     <div class="featured-cont">
+
         <button class="featured-btn">
             Featured deals
         </button>
 
         <div class="featured">
-            <div class="featured-1">
+            <div class="featured-card">
                 <img class="featured-1-img" src="/imgs/motor.png" alt="">
 
             </div>
 
-            <div class="featured-2">
+            <div class="featured-card">
                 <img class="featured-2-img" src="/imgs/fridge.png" alt="">
 
             </div>
 
-            <div class="featured-3">
+            <div class="featured-card">
                 <img class="featured-1-img" src="/imgs/drone.png" alt="">
 
             </div>
 
-            <div class="featured-4">
+            <div class="featured-card">
                 <button class="quantum-btn">View Quantum Specs</button>
                 <button class="initiate-btn">Initiate AI Negotiation</button>
 
@@ -97,41 +107,34 @@
 
     <footer class="footer-stat">
 
-        <div class="footer-r1" >
+        <div class="footer-r" >
             <h1>Company</h1>
-            <ul>About Us</ul>
-            <ul>Careers</ul>                <ul>Terms of Services</ul>
+            <ul><a href="about.html">About Us</a></ul>
+            <ul> <a href="career.html">Careers</a></ul>                
+            <ul><a href="terms.html">Terms of Services</a></ul>
         </div>
 
-        <div class="footer-r2" >
+        <div class="footer-r" >
             <h1>Support</h1>
-            <ul>Contact us</ul>
-            <ul>Terms of Services</ul>                <ul>View All</ul>
+            <ul><a href="contact.html">Contact us</a></ul>
+            <ul><a href="terms.html">Terms of Services</a></ul>                
+            <ul><a href="viewall.html">View All</a></ul>
         </div>
 
-        <div class="footer-r3" >
+        <div class="footer-r" >
             <h1>Company</h1>
-            <ul>About Us</ul>
-            <ul>Careers</ul>
-            <ul>Terms of Services</ul>
-            
+            <ul><a href="about.html">About Us</a></ul>
+            <ul> <a href="career.html">Careers</a></ul>                
+            <ul><a href="terms.html">Terms of Services</a></ul>
         </div>
 
-        <div class="footer-r4" >
-            <h1>Company</h1>
-            <ul>About Us</ul>
-            <ul>Careers</ul>
-            <ul>Terms of Services</ul>
-            
+        <div class="footer-r" >
+            <h1>Support</h1>
+            <ul><a href="contact.html">Contact us</a></ul>
+            <ul><a href="terms.html">Terms of Services</a></ul>                
+            <ul><a href="viewall.html">View All</a></ul>
         </div>
 
-        <div class="footer-r5" >
-            <h1>Company</h1>
-            <ul>About Us</ul>
-            <ul>Careers</ul>
-            <ul>Terms of Services</ul>
-            
-        </div>
 
     </footer>
 
@@ -163,17 +166,32 @@
     </footer>   
     
     <footer class="footer-end">
-        <div>
-            <img src="privacycheckmark.png" alt="privacy check mark">
-            <button>Privacy Policy</button>
-            <button>Sitemap</button>
+        
+            <div class="privacy-check">
+                <img class="checkmark-img" src="/imgs/privacycheckmark.png" alt="privacy check mark">
+
+                <button class="privacy-btn">Privacy Policy</button>
+
+                <button class="site-map">Sitemap</button>
+            </div>
+
+
             <ul class="footer-pagenation">
                 <li><a href="#page1" class="active"></a></li>
                 <li><a href="#page2"></a></li>
                 <li><a href="#page3"></a></li>
                 <li><a href="#page5"></a></li>
             </ul>
-        </div>
+
+            <select name="lang" id="language-switcher" onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="fr">French</option> 
+                <option value="es">Espanol</option>               
+            </select>
+
+
+
+        
     </footer>
 </body>
 </html>
