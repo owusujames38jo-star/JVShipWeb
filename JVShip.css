@@ -185,7 +185,7 @@ body {
 .main-page {
     background-image: url(imgs/background.png);
     width: 100%;
-    min-height: 60vh;
+    min-height: auto;
     aspect-ratio: 1/1;
     background-size: cover;
     background-position: center;
