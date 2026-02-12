@@ -183,7 +183,7 @@ body {
 
 
 .main-page {
-    background-image: url(/imgs/background.png);
+    background-image: url(imgs/background.png);
     width: 100%;
     min-height: 65vh;
     aspect-ratio: 1/1;
@@ -215,7 +215,7 @@ body {
 }
 
 .category-cont {
-    background-image: url(/imgs/footer.png);
+    background-image: url(imgs/footer.png);
     display: flex;
     justify-content: center;
     height: auto;
